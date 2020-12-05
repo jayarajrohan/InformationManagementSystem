@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Information Management System</title>
+		<link rel="stylesheet" type="text/css" href="handy.css">
+		<script type="text/javascript" src="/eel.js"></script>
+		<script type="text/javascript" src="jscript.js"></script>
+		<link rel = "icon" href ="IMS.png" type = "image/x-icon"> 
+	</head>
+	<body>
+		<ul class="admin">
+			<li><a href="admin.html">Change Admin Username</a></li>
+			<li><a href="admin2.html">Change Admin Password</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+		<div class="grand_Parent_Contaniner_add"><div class="parent_Container_add">
+			<table class="adding">
+				<form>
+					<p id ="bucky"></p>
+					<tr>
+						<td>
+							<label for="NIC"><b>NIC Number</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="text" placeholder="Enter NIC" id="NIC" name="NIC" required>
+						</td>
+						<td>
+							<label for="Name"><b>Name</b></label>
+						</td>
+						<td>
+							<input class="jaguar" type="text" id="Name" name="Name" disabled>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="DOB"><b>Date of birth</b></label>
+						</td>
+						<td>
+							<input class="jaguar" type="text" id="DOB" name="DOB" disabled>
+						</td>
+						<td>
+							<label for="Age"><b>Age</b></label>
+						</td>
+						<td>
+							<input class="jaguar" type="text" id="Age" name="Age" disabled>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="Sex"><b>Sex</b></label>
+						</td>
+						<td>
+							<input class="jaguar" type="text" id="Sex" name="Sex" disabled>
+						</td>
+						<td>
+							<label for="Address"><b>Address</b></label>
+						</td>
+						<td>
+							<textarea class="jaguar" id="Address" name="Address" rows="2" cols="20" disabled></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="phone"><b>Mobile Number</b></label>
+						</td>
+						<td>
+							<input class="jaguar" type="text" id="phone" name="phone" disabled>
+						</td>
+						<td>
+							<label for="Of_name"><b>Office Name</b></label>
+						</td>
+						<td>
+							<input class="jaguar" type="text" id="Of_name" name="Of_name" disabled>
+						</td>		
+					</tr>
+					<tr>
+						<td>
+							<label for="Mem_Number"><b>Membership Number</b></label>
+						</td>
+						<td>
+							<input class="jaguar" type="text" id="Mem_Number" name="Mem_Number" disabled>
+						</td>
+						<td>
+							<label for="Mem_Date"><b>Membership Date</b></label>
+						</td>
+						<td>
+							<input class="jaguar" type="text" id="Mem_Date" name="Mem_Date" disabled>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<div class="button_container">
+								<button type="submit" id="add_button" onclick="retrieve_func()">Retrieve</button>
+							</div>
+						</td>
+					</tr>
+				</form>
+			</table>
+		</div></div>
+		<ul class="nav">
+			<li><a class="active" href="retrieve.html">Retrieve Information</a></li>
+			<li><a href="add.html">Add New Information</a></li>
+			<li><a href="update.html">Update Information</a></li>
+			<li><a href="delete.html">Delete Information</a></li>
+		</ul>
+	</body>
+</html>

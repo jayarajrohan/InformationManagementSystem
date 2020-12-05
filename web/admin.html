@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Information Management System</title>
+		<link rel="stylesheet" type="text/css" href="handy.css">
+		<script type="text/javascript" src="/eel.js"></script>
+		<script type="text/javascript" src="jscript.js"></script>
+		<link rel = "icon" href ="IMS.png" type = "image/x-icon"> 
+	</head>
+</html>
+	<body>
+		<ul class="admin">
+			<li><a class="active" href="admin.html">Change Admin Username</a></li>
+			<li><a href="admin2.html">Change Admin Password</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+		<div class="grand_Parent_Contaniner_add"><div class="parent_Container_add">
+			<table class="adding">
+				<form>
+					<tr>
+						<td class="heading" colspan="2">Change Username</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="CUN"><b>Current Username</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="text" placeholder="Current Username" id="CUN" name="CUN" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="NUN"><b>New Username</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="text" placeholder="New Username" id="NUN" name="NUN" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="CNUN"><b>Confirm New Username</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="text" placeholder="Confirm New Username" id="CNUN" name="CNUN" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="pw"><b>Password</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="password" placeholder="Enter Password" id="pw" name="pw" required>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div class="button_container">
+								<button type="submit" id="add_button" onclick="change_user_func()">Change Username</button>
+							</div>
+						</td>
+					</tr>
+				</form>
+			</table>
+		</div></div>
+		<ul class="nav">
+			<li><a href="retrieve.html">Retrieve Information</a></li>
+			<li><a href="add.html">Add New Information</a></li>
+			<li><a href="update.html">Update Information</a></li>
+			<li><a href="delete.html">Delete Information</a></li>
+		</ul>
+	</body>

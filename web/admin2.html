@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Information Management System</title>
+		<link rel="stylesheet" type="text/css" href="handy.css">
+		<script type="text/javascript" src="/eel.js"></script>
+		<script type="text/javascript" src="jscript.js"></script>
+		<link rel = "icon" href ="IMS.png" type = "image/x-icon"> 
+	</head>
+</html>
+	<body>
+		<ul class="admin">
+			<li><a href="admin.html">Change Admin Username</a></li>
+			<li><a class="active" href="admin2.html">Change Admin Password</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+		<div class="grand_Parent_Contaniner_add"><div class="parent_Container_add">
+			<table class="adding">
+				<form>
+					<tr>
+						<td class="heading" colspan="2">Change Password</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="CUP"><b>Current Password</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="password" placeholder="Current Password" id="CUP" name="CUP" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="NPW"><b>New Password</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="password" placeholder="New Password" id="NPW" name="NPW" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="CNPW"><b>Confirm New Password</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="Password" placeholder="Confirm New Password" id="CNPW" name="CNPW" required>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div class="button_container">
+								<button type="submit" id="add_button" onclick="change_pass_func()">Change Password</button>
+							</div>
+						</td>
+					</tr>
+				</form>
+			</table>
+		</div></div>
+		<ul class="nav">
+			<li><a href="retrieve.html">Retrieve Information</a></li>
+			<li><a href="add.html">Add New Information</a></li>
+			<li><a href="update.html">Update Information</a></li>
+			<li><a href="delete.html">Delete Information</a></li>
+		</ul>
+	</body>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Information Management System</title>
+		<link rel="stylesheet" type="text/css" href="handy.css">
+		<script type="text/javascript" src="/eel.js"></script>
+		<script type="text/javascript" src="jscript.js"></script>
+		<link rel = "icon" href ="IMS.png" type = "image/x-icon"> 
+	</head>
+	<body>
+		<ul class="admin">
+			<li><a href="admin.html">Change Admin Username</a></li>
+			<li><a href="admin2.html">Change Admin Password</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+			<div class="grand_Parent_Contaniner_add"><div class="parent_Container_add">
+			<table class="adding">
+			<form>
+				<tr>
+					<td>
+						<label for="NIC"><b>NIC Number</b></label>
+					</td>
+					<td>
+						<input class="rohan" type="text" placeholder="Enter NIC" id="NIC" name="NIC" required>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="button_container">
+						<button type="submit" id="del_button" onclick="del_func()">Delete</button>
+						</div>
+					</td>
+				</tr>
+			</form>
+			</table>
+			</div></div>
+		<ul class="nav">
+			<li><a href="retrieve.html">Retrieve Information</a></li>
+			<li><a href="add.html">Add New Information</a></li>
+			<li><a href="update.html">Update Information</a></li>
+			<li><a class="active" href="delete.html">Delete Information</a></li>
+		</ul>
+	</body>
+</html>
