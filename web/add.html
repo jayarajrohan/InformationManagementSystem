@@ -13,86 +13,136 @@
 			<li><a href="admin2.html">Change Admin Password</a></li>
 			<li><a href="about.html">About</a></li>
 		</ul>
-			<div class="grand_Parent_Contaniner_add"><div class="parent_Container_add">
+		<div class="full_dropdown">
+			<div class="dropdown">
+				<button class="dropbtn">Features</button>
+				<div class="dropdown-content">
+					<a href="view.html">View All Information</a>
+					<a href="export.html">Export</a>
+					<a href="payroll.html">Payroll</a>
+					<a href="id.html">ID Card</a>
+				</div>
+			</div> 
+		</div>
+		<div class="grand_Parent_Contaniner_add"><div class="parent_Container_add">
 			<table class="adding">
-			<form>
-				<tr>
-					<td>
-						<label for="NIC"><b>NIC Number</b></label>
-					</td>
-					<td>
-						<input class="rohan" type="text" placeholder="Enter NIC" id="NIC" name="NIC" required>
-					</td>
-					<td>
-						<label for="Name"><b>Name</b></label>
-					</td>
-					<td>
-						<input class="rohan" type="text" placeholder="Enter Name" id="Name" name="Name" required>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label for="DOB"><b>Date of birth</b></label>
-					</td>
-					<td>
-						<input class="rohan" type="date" id="DOB" name="DOB">
-					</td>
-					<td>
-						<label for="Sex"><b>Sex</b></label>
-					</td>
-					<td>
-						<select class="rohan" name="Sex" id="Sex">
-							<option value="Male">Male</option>
-							<option value="Female">Female</option>
-						</select>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label for="Address"><b>Address</b></label>
-					</td>
-					<td>
-						<textarea class="rohan" id="Address" name="Address" rows="2" cols="20" placeholder="Enter Address"></textarea>
-					</td>
-					<td>
-						<label for="phone"><b>Mobile Number</b></label>
-					</td>
-					<td>
-						<input class="rohan" type="tel" placeholder="Enter Mobile Number" id="phone" name="phone">
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label for="Of_name"><b>Office Name</b></label>
-					</td>
-					<td>
-						<input class="rohan" type="text" id="Of_name" name="Of_name" placeholder="Enter Office Name">
-					</td>
-					<td>
-						<label for="Mem_Number"><b>Membership Number</b></label>
-					</td>
-					<td>
-						<input class="rohan" type="text" id="Mem_Number" name="Mem_Number" placeholder="Enter Membership Number">
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label for="Mem_Date"><b>Membership Date</b></label>
-					</td>
-					<td>
-						<input class="rohan" type="date" id="Mem_Date" name="Mem_Date">
-					</td>
-				</tr>
-				<tr>
-					<td colspan="4">
-						<div class="button_container">
-						<button type="submit" id="add_button" onclick="add_func()">Save</button>
-						</div>
-					</td>
-				</tr>
-			</form>
+				<form>
+					<tr>
+						<td>
+							<label for="NIC"><b>NIC Number</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="text" placeholder="Enter NIC" id="NIC" name="NIC" required>
+						</td>
+						<td>
+							<label for="Name"><b>Name</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="text" placeholder="Enter Name" id="Name" name="Name" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="DOB"><b>Date of birth</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="date" id="DOB" name="DOB">
+						</td>
+						<td>
+							<label for="Sex"><b>Sex</b></label>
+						</td>
+						<td>
+							<select class="rohan" name="Sex" id="Sex">
+								<option value="Male">Male</option>
+								<option value="Female">Female</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="Address"><b>Address</b></label>
+						</td>
+						<td>
+							<textarea class="rohan" id="Address" name="Address" rows="2" cols="20" placeholder="Enter Address"></textarea>
+						</td>
+						<td>
+							<label for="phone"><b>Mobile Number</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="tel" placeholder="Enter Mobile Number" id="phone" name="phone">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="Of_name"><b>Office Name</b></label>
+						</td>
+						<td>
+							<select class="rohan" name="Of_name" id="Of_name" required>
+								<option value="AG Office, Alawwa">AG Office, Alawwa</option>
+								<option value="AG Office, Aranayaka">AG Office, Aranayaka</option>
+								<option value="AG Office, Aththanagalla">AG Office, Aththanagalla</option>
+								<option value="AG Office, Bulathkohupitiya">AG Office, Bulathkohupitiya</option>
+								<option value="AG Office, Dehiowita">AG Office, Dehiowita</option>
+								<option value="AG Office, Deraniyagala">AG Office, Deraniyagala</option>
+								<option value="AG Office, Galapitamada">AG Office, Galapitamada</option>
+								<option value="AG Office, Galigamuwa">AG Office, Galigamuwa</option>
+								<option value="AG Office, Gangaihalakorale">AG Office, Gangaihalakorale</option>
+								<option value="AG Office, Godagama">AG Office, Godagama</option>
+								<option value="AG Office, Homagama">AG Office, Homagama</option>
+								<option value="AG Office, Kegalle">AG Office, Kegalle</option>
+								<option value="AG Office, Kelaniya">AG Office, Kelaniya</option>
+								<option value="AG Office, Mawanella">AG Office, Mawanella</option>
+								<option value="AG Office, Nittambuwa">AG Office, Nittambuwa</option>
+								<option value="AG Office, Ruwanwella">AG Office, Ruwanwella</option>
+								<option value="AG Office, Thimbirigasyaya">AG Office, Thimbirigasyaya</option>
+								<option value="AG Office, Warakapola">AG Office, Warakapola</option>
+								<option value="AG Office, Yatiyantota">AG Office, Yatiyantota</option>
+								<option value="District Health Services Training Office, Kegalle">District Health Services Training Office, Kegalle</option>
+								<option value="Central Medical Shop, Nelumdeniya">Central Medical Shop, Nelumdeniya</option>
+								<option value="General Hospital, Mawanella">General Hospital, Mawanella</option>
+								<option value="Gowijanasewa Madyasthanaya, Kadaweediya">Gowijanasewa Madyasthanaya, Kadaweediya</option>
+								<option value="Gowijanasewa Madyasthanaya, Kuruduwatta">Gowijanasewa Madyasthanaya, Kuruduwatta</option>
+								<option value="Medical Resource Office, Colombo 08">Medical Resource Office, Colombo 08</option>
+								<option value="NULL">NULL</option>
+								<option value="Pradeshiya Sabha, Bulathkohupitiya">Pradeshiya Sabha, Bulathkohupitiya</option>
+								<option value="Pradeshiya Sabha, Dehiowita">Pradeshiya Sabha, Dehiowita</option>
+								<option value="Pradeshiya Sabha, Deraniyagala">Pradeshiya Sabha, Deraniyagala</option>
+								<option value="Veterinarian Office, Aranayaka">Veterinarian Office, Aranayaka</option>
+								<option value="Veterinarian Office, Dehiowita">Veterinarian Office, Dehiowita</option>
+								<option value="Veterinarian Office, Galigamuwa">Veterinarian Office, Galigamuwa</option>
+								<option value="Veterinarian Office, Mawanella">Veterinarian Office, Mawanella</option>
+								<option value="Veterinarian Office, Pallebadda">Veterinarian Office, Pallebadda</option>
+								<option value="Veterinarian Office, Rambukkana">Veterinarian Office, Rambukkana</option>
+								<option value="Veterinarian Office, Ruwanwella">Veterinarian Office, Ruwanwella</option>
+								<option value="Veterinarian Office, Warawala">Veterinarian Office, Warawala</option>
+								<option value="Veterinarian Office, Yatiyantota">Veterinarian Office, Yatiyantota</option>
+							</select>
+						</td>
+						<td>
+							<label for="Mem_Number"><b>Membership Number</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="text" id="Mem_Number" name="Mem_Number" placeholder="Enter Membership Number">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="Mem_Date"><b>Membership Date</b></label>
+						</td>
+						<td>
+							<input class="rohan" type="date" id="Mem_Date" name="Mem_Date">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<div class="button_container">
+								<button type="submit" id="add_button" onclick="add_func()">Save</button>
+							</div>
+						</td>
+					</tr>
+				</form>
 			</table>
-			</div></div>
+		</div></div>
 		<ul class="nav">
 			<li><a href="retrieve.html">Retrieve Information</a></li>
 			<li><a class="active" href="add.html">Add New Information</a></li>
